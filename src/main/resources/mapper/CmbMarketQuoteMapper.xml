@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.yc.data.mapper.CmbMarketQuoteMapper">
+    <sql id="tableName">
+        cmb_market_quote
+    </sql>
+
+    <sql id="baseColumn">
+        id,curve_name,instrument_type,instrument_name,tenor,quote,maturity_date,rep_date,check_date,gmt_create,gmt_modified
+    </sql>
+
+</mapper>
